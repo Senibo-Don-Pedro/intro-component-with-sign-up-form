@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-image: url('../images/bg-intro-mobile.png');
+
+  background-color: hsl(0, 100%, 74%);
+}
+
+@media (min-width: 375px) {
+  .bg {
+    background-image: url('../images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+  }
+}
+
+.box {
+  box-shadow: 0px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.buttonshadow {
+  box-shadow: 0px 5px 1px rgba(5, 107, 49, 0.734);
+}
